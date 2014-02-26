@@ -9,7 +9,7 @@ app.listen(process.env.PORT);
 
 var appKey= 'hwtsssqlfmntsmhz27p7znfvemiauqzy';
 var appSecret= 'wzlbofn8ppkkvo4q0szeltdx8py3csim';
-var redirect_uri= 'https://sleepy-beyond-2820.herokuapp.com/token';
+var redirect_uri= 'https://oauth-nodejs-dhs.herokuapp.com/token';
 
 app.get('/', function(req, res) { 
 	res.send('AT&T OAuth Test...')
