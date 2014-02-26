@@ -5,7 +5,7 @@ var util= require('util');
 
 var app = express(); 
 
-app.listen(8000);
+app.listen(process.env.PORT);
 
 var appKey= 'hwtsssqlfmntsmhz27p7znfvemiauqzy';
 var appSecret= 'wzlbofn8ppkkvo4q0szeltdx8py3csim';
